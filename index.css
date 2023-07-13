@@ -75,9 +75,6 @@ ul li.clone a {
   font-weight: 700;
 }
 
-/* ul .clone a:hover {
-  background: hsla(33, 94%, 49%, 0.1);
-} */
 ul .clone a:active {
   opacity: .5;
 }
