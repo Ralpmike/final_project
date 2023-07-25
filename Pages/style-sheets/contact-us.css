@@ -199,7 +199,6 @@ footer {
 
 .footer-items {
   padding-top: 100px;
-  h5
 }
 
 .finesweet {
@@ -363,7 +362,10 @@ footer {
   .exceptional {
     flex-direction: column;
   }
-  .exceptional div:nth-child(2) {
+  /* .exceptional div:nth-child(1) {
+    width: 520px;
+  } */
+  .exceptional div:nth-child(2), .exceptional div:nth-child(1) {
     width: 100%;
   }
  /* footer section */
