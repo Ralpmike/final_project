@@ -362,9 +362,6 @@ footer {
   .exceptional {
     flex-direction: column;
   }
-  /* .exceptional div:nth-child(1) {
-    width: 520px;
-  } */
   .exceptional div:nth-child(2), .exceptional div:nth-child(1) {
     width: 100%;
   }
