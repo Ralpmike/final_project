@@ -258,7 +258,7 @@ height: 650px;
   font-size: 1.125rem;
 }
 .video-image {
-  background: url('/assets/images/img_play_video.png') no-repeat;
+  background: url("../../assets/images/img_play_video.png") no-repeat;
   background-size: cover;
   width: 620px;
   height: 501px;

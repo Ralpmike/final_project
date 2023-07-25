@@ -339,7 +339,7 @@ h2 {
 }
 
 .img-planning {
-  background: url(./assets/images/img_client_help.png) no-repeat;
+  background: url("./assets/images/img_client_help.png") no-repeat;
   background-size: cover;
   width: 472px;
   height: 466px;
@@ -381,7 +381,7 @@ h2 {
 }
 
 .img-coffee {
-  background: url(./assets/images/img_start_up.png) no-repeat;
+  background: url("./assets/images/img_start_up.png") no-repeat;
   background-size: cover;
 }
 
@@ -448,7 +448,7 @@ h2 {
   font-size: 1.125rem;
 }
 .video-image {
-  background: url('/assets/images/img_play_video.png') no-repeat;
+  background: url("/assets/images/img_play_video.png") no-repeat;
   background-size: cover;
   width: 620px;
   height: 501px;
