@@ -9,37 +9,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/assets/logo/icons8-home-40.png" type="image/x-icon">
+
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <header>
-    <div class="nav-bar">
+  <div class="header">
+    <nav class="nav-bar">
       <input type="checkbox" id="check" name="check">
       <div class="logo">
-        <img src="./assets/logo/Logo.png" alt="Company Logo">
+        <h3>finesweet</h3>
       </div>
       <ul>
-        <li><a href="" class="my-home">Home</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Careers</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="/index.html" class="my-home">Home</a></li>
+        <li><a href="./Pages/Html-pages/about-us.html">About Us</a></li>
+        <li><a href="./Pages/Html-pages/services.html">Services</a></li>
+        <li><a href="./Pages/Html-pages/careers.html">Careers</a></li>
+        <li><a href="./Pages/Html-pages/blog.html">Blog</a></li>
+        <li><a href="./Pages/Html-pages/contact-us.html">Contact Us</a></li>
         <li class="clone"><a href="">Clone project</a></li>
       </ul>
       <label for="check" class="checkbtn">
         <i class="fa fa-bars"></i>
       </label>
-    </div>
-
-  </header>
-
+    </nav>
+  </div>
+  </div>
   <main>
-    <section id="first-img">
+    <section class="first-img first-comment padding-effect">
       <div class="bg-comment">
         <h2>Your Software Development Team As A Service</h2>
-        <h3>We use modern technologies and frameworks in developing your projects</h3>
+        <p>We use modern technologies and frameworks in developing your projects</p>
         <div class="bg-img-button">
           <button type="button" class="our-services"><a href="">See our services</a></button>
           <button type="button"><a href="">See All Services</a></button>
@@ -47,17 +49,22 @@
       </div>
     </section>
 
-    <section id="pg-section1">
+    <section class="section-1">
       <div class="buiz-assistance">
-        <h2>We help more than 1500 companies from all sectors</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Curabitur sit amet eros blandit, hendrerit elit et,
-          mattis purus. Vivamus commodo suscipit tellus et pellentesque.
-        </p>
-        <div class="coloured-square"></div>
-        <div class="help-discription">
+        <div class="sub-assitance flex-direct">
+          <div>
+            <h2>We help more than 1500 companies from all sectors</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur sit amet eros blandit, hendrerit elit et,
+              mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+            </p>
+          </div>
+          <div class="coloured-square"></div>
+        </div>
+        <div class="help-discription flex-direct">
           <div class="img-bg-help-section">
-            <div class="img-strategy">
+            <div class="img-strategy img-width ">
+              <img src="./assets/images/buiz-img.png" alt="">
             </div>
             <h3>Business strategy</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -66,7 +73,8 @@
             <p class="yellow-arrow"><a href="">Learn More <i class="fa fa-arrow-right"></i></a></p>
           </div>
           <div class="img-bg-help-section">
-            <div class="img-digitalize">
+            <div class="img-digitalize img-width ">
+              <img src="./assets/images/Image-digit.png" alt="">
             </div>
             <h3>Digitalization</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -75,7 +83,8 @@
             <p class="yellow-arrow"><a href="">Learn More <i class="fa fa-arrow-right"></i></a></p>
           </div>
           <div class="img-bg-help-section">
-            <div class="img-assessment">
+            <div class="img-assessment img-width ">
+              <img src="./assets/images/Image-risk.png" alt="">
             </div>
             <h3>Risk assessment</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -86,19 +95,20 @@
         </div>
       </div>
     </section>
-    <section class="pg_section2">
+
+    <section class="pg_section2 padding-effect">
+      <h4 class="business">Our business</h4>
       <div class="our-business">
-        <div class="what-we-offer">
-          <h4 class="software">We are building software solution that
+        <div class="what-we-offer flex-direct">
+          <h3>We are building software solution that
             solves your business challenges
-          </h4>
-          <h4 class="business">Our business</h4>
+          </h3>
           <p>Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
             et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
           </p>
         </div>
-        <div class="support-offer">
+        <div class="support-offer flex-direct">
           <div class="support-cover">
             <img src="./assets/logo/icon_invoice.png" alt="">
             <h3>Invoicing</h3>
@@ -127,18 +137,20 @@
       </div>
     </section>
 
-    <section class="pg_section3">
-      <div class="experience">
-        <div class="start-up">
-          <h6>The energy of a start-up combined
-            with 30 years of experience.
-          </h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur sit amet eros blandit, hendrerit elit
-            et, mattis purus.
-            Vivamus commodo suscipit tellus et pellentesque.
-          </p>
-          <div class="trophies">
+    <section class="pg_section3 padding-effect">
+      <div class="experience flex-reverse">
+        <div class="start-up width-100">
+          <div>
+            <h2>The energy of a start-up combined
+              with 30 years of experience.
+            </h2>
+            <p class="space">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur sit amet eros blandit, hendrerit elit
+              et, mattis purus.
+              Vivamus commodo suscipit tellus et pellentesque.
+            </p>
+          </div>
+          <div class="trophies flex-direct ">
             <div class="awards">
               <h3>15+</h3>
               <h4>Awards received</h4>
@@ -160,18 +172,19 @@
         </div>
       </div>
     </section>
-    <section class="pg_section4">
+
+    <section class="pg_section4 padding-effect">
       <div class="research-strategy">
-        <div class="btn">
+        <div class="btn flex-direct">
           <button type="button" class="buiz-strate"><a href="">Business strategy</a></button>
           <button type="button" class="digit"><a href="">Digitalization</a></button>
           <button type="button" class="digit"><a href="">Risk assessment</a></button>
         </div>
-        <div class="sub-research_pg">
-          <div class="commentary-box">
-            <h5>Helping clients with research
+        <div class="sub-research_pg flex-reverse">
+          <div class="commentary-box flex-direct width-100">
+            <h2>Helping clients with research
               and strategy for their business
-            </h5>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Curabitur sit amet eros blandit,
@@ -191,54 +204,140 @@
         </div>
       </div>
     </section>
+
     <section class="pg_section5">
-      <div class="pg_section5_images">
-        <div class="img-coffee">
+      <div class="pg_section5_images flex-direct">
+        <div class="img-coffee width-100">
 
         </div>
-        <div class="img_job_vacancy">
-          <h5>Energy of
+        <div class="img_job_vacancy width-100">
+          <h2>Energy of
             a start-up combined with 30 years of experience.
-          </h5>
+          </h2>
           <button type="button" class="see-job"><a href="">See Job Vacancies</a></button>
         </div>
       </div>
     </section>
-    <section class="pg_section6">
-      <div class="dreams">
+
+    <section class="page4 padding-effect">
+      <div class="dreams flex-direct">
         <div class="our-dreams">
-          <h4>Finsweet was a dream to work with</h4>
-          <p>Maecenas efficitur scelerisque lorem, 
-            et varius lacus tincidunt vel. Pellentesque 
+          <h3>Finsweet Was A Dream To Work With</h3>
+          <p class="maecenas">Maecenas efficitur scelerisque lorem,
+            et varius lacus tincidunt vel. Pellentesque
             a arcu vitae diam dapibus
             mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
           </p>
-          <div class="authors-name">
+          <div class="authors-name relative">
             <div class="authors-pic">
-              <img src="./assets/images/img_chikelu.png" alt="">
+              <img src="/assets/images/img_chikelu.png" alt="">
             </div>
-            <div class="name">
-              <p>Chikelu Neo</p>
-              <p>CEO at MazeAI</p>
+            <div class="chikelu absolute">
+              <p class="chike">Chikelu Neo</p>
+              <p class="ceo">CEO at MazeAI</p>
             </div>
           </div>
         </div>
-        <div class="video-image">
+        <div class="video-image relative">
           <div class="circle">
-           <i class="fa-solid fa-play"></i> <p>play Video</p>
+            <i class="fa-solid fa-play"></i>
           </div>
-
+          <span>play Video</span>
         </div>
-
       </div>
-
     </section>
-    <section>
 
+    <section class="page2 padding-effect">
+      <div class="blog">
+        <h2>Latest Blog & News</h2>
+        <div class="blog-content flex-direct">
+          <div class="content">
+            <div>
+              <img src="/assets/images/Imageblog.png" alt="">
+            </div>
+            <div>
+              <h3>Why you have to digitalize in 2021</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur sit amet eros blandit, hendrerit elit et..
+              </p>
+              <p class="orange-arrow">Learn More <i class="fa fa-arrow-right"></i></p>
+            </div>
+          </div>
+          <div class="content">
+            <div>
+              <img src="/assets/images/Imageprocess.png" alt="">
+            </div>
+            <div>
+              <h3>Our internal process and longerm vision</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur sit amet eros blandit, hendrerit elit et..
+              </p>
+              <p class="orange-arrow">Learn More <i class="fa fa-arrow-right"></i></p>
+            </div>
+          </div>
+          <div class="content">
+            <div>
+              <img src="/assets/images/Imagehelping.png" alt="">
+            </div>
+            <div>
+              <h3>Helping the next generation of leaders</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur sit amet eros blandit, hendrerit elit et..
+              </p>
+              <p class="orange-arrow">Learn More <i class="fa fa-arrow-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
-  <footer>
+
+  <footer class="padding-effect relative">
+    <div class="footer-items">
+      <div class="find-author">
+        <div class="finesweet">
+          <div class="sweet flex-rem">
+            <h3>finesweet</h3>
+            <h4>Bespoke software solutions</h4>
+            <div class="media">
+              <ul>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a> </li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></i></a> </li>
+                <li> <a href=""><i class="fab fa-twitter"></i></i></a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="company flex-rem">
+            <h3>Company</h3>
+            <h6>About Us</h6>
+            <h6>Careers</h6>
+            <h6>Services</h6>
+            <h6>Blog</h6>
+          </div>
+          <div class="connect flex-rem">
+            <h3>connect</h3>
+            <h6>hi@finsweet.com</h6>
+            <h6>+(123) 456-7890</h6>
+          </div>
+          <div class="newsletter flex-rem">
+            <h3>Join Newsletter</h3>
+            <form action="hi@finsweet.com" method="post">
+              <input type="email" name="email" id="email" placeholder="Type email here" required>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="privacy flex-direct">
+      <p>© All rights reserved – Finsweet</p>
+      <p><span>Privacy Policy</span>
+        <span>Terms & Conditions</span></p>
+    </div>
+    <div class="regular-solid"></div>
+    <div class="regular-side"></div>
   </footer>
 </body>
 
