@@ -113,8 +113,21 @@ ul .clone a:active {
   justify-content: space-between;
   align-items: unset;
 }
+h2 {
+  font-size: 48px;
+  color: var(--pg2-header-col);
+  line-height: 1.2;
+}
+.exceptional h3 {
+  font-size: 24px;
+  color: var(--black-color);
+}
+.exceptional p{
+  font-size: 18px;
+  font-weight: 500;
+}
 .exceptional div:nth-child(1) {
-  width: 400px;
+  width: 520px;
 }
 .exceptional div h2, .exceptional div h3{
   margin-bottom: 10px;
@@ -186,6 +199,7 @@ footer {
 
 .footer-items {
   padding-top: 100px;
+  h5
 }
 
 .finesweet {
@@ -204,22 +218,19 @@ footer {
   gap: 20px;
   font-size: 1rem;
 }
-
-.sweet h3 {
-  font-size: 1.5rem;
-}
-
-.company h3,
-.connect h3,
-.newsletter h3 {
-  font-size: 1.125rem;
-}
-
 .sweet h4 {
   font-size: 2rem;
   width: 21.9375rem;
 }
 
+.sweet h3 {
+  font-size: 1.5rem;
+}
+.company h3,
+.connect h3,
+.newsletter h3 {
+  font-size: 1.125rem;
+}
 .sweet .media ul {
   display: flex;
   gap: 20px;
